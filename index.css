@@ -1,0 +1,184 @@
+/*Colors
+$red: #ff3333;
+$yellow: #ffcc33;
+$aqua: #55dde0;
+$lightPurple: #9966cc;
+$tealBLue: #33658a;
+$maroon: #7D1935;
+$cream: #faf1e6;
+$linear: linear-gradient(90deg, #3f4593, #5960bd);
+*/
+
+body
+{
+    background-color: #FAF1E6;
+}
+
+a:link {
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 2rem;
+    font-size: 20px;
+  }
+
+
+
+.dropbtn {
+  background-color: #7d1935;
+  width: 200px; 
+  height: 75px; 
+  text-align: center; 
+  padding-top: 15px; 
+  margin-right: 2%;
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  border: none;
+  
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+  color: #FAF1E6;
+  border: none;
+  }
+  
+  
+  
+  .dropdown-content 
+  {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover
+{
+  background-color: #ddd;
+  
+    
+  }
+  
+  .dropdown:hover .dropdown-content 
+  {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn
+   {
+     border-top: 5px solid #ffcc33;
+    }
+.home:hover
+{
+  border-top: 5px solid #ffcc33;
+
+}
+    .drop-item1
+    {
+      transform-origin: top right;
+      animation-name: bottomTOtop;
+      animation-duration: 500ms;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+    }
+    .drop-item2
+    {
+      transform-origin: top right;
+      animation-name: bottomTOtop;
+      animation-duration: 700ms;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+    }
+    .drop-item3
+    {
+      transform-origin: top right;
+      animation-name: bottomTOtop;
+      animation-duration: 900ms;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+    }
+    .drop-item4
+    {
+      transform-origin: top right;
+      animation-name: bottomTOtop;
+      animation-duration: 1100ms;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes bottomTOtop
+  {
+    0%{
+      opacity: 0;
+      transform:rotate(-30deg)
+    }
+    100%{
+      opacity: 1;
+      transform:rotate(0deg)
+    }
+  }
+
+  .drop-item5
+    {
+      transform-origin: top right;
+      animation-name: topTObottom;
+      animation-duration: 400ms;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+    }
+    .drop-item6
+    {
+      transform-origin: top right;
+      animation-name: topTObottom;
+      animation-duration: 900ms;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+    }
+    .drop-item7
+    {
+      transform-origin: top right;
+      animation-name: topTObottom;
+      animation-duration: 1300ms;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+    }
+    @keyframes topTObottom
+    {
+      0%{
+        opacity: 0;
+        transform:rotateX(-90deg)
+      }
+      100%{
+        opacity: 1;
+        transform:rotateX(0deg) ;
+      }
+    }
+
+.intro{
+  margin-left: -10%;
+  font-size: 3.5rem;
+  font-family: 'Bebas Neue', cursive;   
+}
+.fade_up
+{
+  animation: fadeInAnimation ease-in-out 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
